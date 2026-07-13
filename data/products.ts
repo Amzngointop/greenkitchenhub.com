@@ -15,8 +15,6 @@ export interface Product {
   whyWePicked: string
 }
 
-const url = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=YOURTAG-20`
-
 export const products: Product[] = [
   // CATEGORY 1 — best-reusable-paper-towels
   {
@@ -25,7 +23,7 @@ export const products: Product[] = [
     rank: 1,
     name: 'Fantasticlean Microfiber Cleaning Cloth Roll – 75 Pack',
     asin: 'B0B27JSN71',
-    affiliateUrl: url('B0B27JSN71'),
+    affiliateUrl: 'https://www.amazon.com/Fantasticlean-Microfiber-Cleaning-Reusable-Washable/dp/B0B27JSN71?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=a7a561d0c42ee8f15a017f46f7ad2c62&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71qR83bSpYL.AC_SL1500.jpg',
     badge: 'Best Overall',
     summary:
@@ -52,7 +50,7 @@ export const products: Product[] = [
     rank: 2,
     name: 'MoLKENE Swedish Dish Cloths – 10 Pack',
     asin: 'B0B9S9SJQB',
-    affiliateUrl: url('B0B9S9SJQB'),
+    affiliateUrl: 'https://www.amazon.com/MoLKENE-Swedish-Dish-Cloths-Dishcloths/dp/B0B9S9SJQB?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=1cb897100c2da9728f7f027958b79ac2&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81ca6uH9vqL.AC_SL1400.jpg',
     badge: '',
     summary:
@@ -78,7 +76,7 @@ export const products: Product[] = [
     rank: 3,
     name: 'FEBU Swedish Dishcloths – 5 Pack Watercolor',
     asin: 'B09JPC3688',
-    affiliateUrl: url('B09JPC3688'),
+    affiliateUrl: 'https://www.amazon.com/FEBU-Dishcloths-Watercolor-Cellulose-Biodegradable/dp/B09JPC3688?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=9f706d02fafd8b9e8797c59a0144c1bc&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81GEWmmmRqL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -104,7 +102,7 @@ export const products: Product[] = [
     rank: 4,
     name: 'AIDEA Microfiber Cleaning Cloth Roll – 55 Sheets',
     asin: 'B0D1KFJSVX',
-    affiliateUrl: url('B0D1KFJSVX'),
+    affiliateUrl: 'https://www.amazon.com/AIDEA-Microfiber-Automotive-Workshops-Kitchen-11%C3%979/dp/B0D1KFJSVX?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=464120417dfe8aad05dfe5080aeb87bd&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81mvL6pJjHL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -130,7 +128,7 @@ export const products: Product[] = [
     rank: 5,
     name: 'Eulnars Swedish Dishcloths – 8 Pack with Clips',
     asin: 'B0CCVXNQBF',
-    affiliateUrl: url('B0CCVXNQBF'),
+    affiliateUrl: 'https://www.amazon.com/Eulnars-Non-Scratch-Reusable-Paper-Biodegradable/dp/B0CCVXNQBF?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=03d07ed8153467c06ff7d4e2743ed65a&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81oKdRLAvWL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -156,7 +154,7 @@ export const products: Product[] = [
     rank: 6,
     name: 'Puomue Microfiber Cleaning Cloth Roll – 55 Pack Grey',
     asin: 'B0F4QGMPP8',
-    affiliateUrl: url('B0F4QGMPP8'),
+    affiliateUrl: 'https://www.amazon.com/Puomue-Microfiber-Cleaning-Reusable-Absorbent/dp/B0F4QGMPP8?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=861e7d4d8bbb4653d3b352913ba38a8a&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81yqBIZhYYL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -184,7 +182,7 @@ export const products: Product[] = [
     rank: 1,
     name: '3-Piece Carbonized Bamboo Cutting Board Set (Zeawec)',
     asin: 'B0GFCZTRKL',
-    affiliateUrl: url('B0GFCZTRKL'),
+    affiliateUrl: 'https://www.amazon.com/Zeawec-3-Piece-Bamboo-Cutting-Kitchen/dp/B0GFCZTRKL?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=0061fedc0d3e366f79d39938983c7182&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71MTOyhiJ5L.AC_SL1500.jpg',
     badge: "Editor's Pick",
     summary:
@@ -211,7 +209,7 @@ export const products: Product[] = [
     rank: 2,
     name: 'Astercook Deep-Carbonized Bamboo Cutting Board with Stand',
     asin: 'B0FH6YL3XC',
-    affiliateUrl: url('B0FH6YL3XC'),
+    affiliateUrl: 'https://www.amazon.com/Astercook-Deep-Carbonized-Reversible-Charcuterie-Easy-Grip/dp/B0FH6YL3XC?&linkCode=ll2&tag=greenkitchenh-20&linkId=cd1cbb3b4b5da28fb8457050b032a479&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/91xky+JYmZL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -237,7 +235,7 @@ export const products: Product[] = [
     rank: 3,
     name: 'Freshware Bamboo Cutting Board Set of 3',
     asin: 'B016OP6N3M',
-    affiliateUrl: url('B016OP6N3M'),
+    affiliateUrl: 'https://www.amazon.com/Freshware-BC-200PK-Eco-Friendly-Chopping-Vegetables/dp/B016OP6N3M?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=37cbc17e8084c4e05e643ce3b3658337&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81gLwPfpWbL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -263,7 +261,7 @@ export const products: Product[] = [
     rank: 4,
     name: 'ROYAL CRAFT WOOD Bamboo Cutting Board Set',
     asin: 'B0D2P1HSCV',
-    affiliateUrl: url('B0D2P1HSCV'),
+    affiliateUrl: 'https://www.amazon.com/ROYAL-CRAFT-WOOD-Cutting-Kitchen/dp/B0D2P1HSCV?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=aa93be72bec4d1064d8ea8038ca6111f&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/818Koibt7DL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -289,7 +287,7 @@ export const products: Product[] = [
     rank: 5,
     name: 'Kikcoin 17x11 Extra Large Bamboo Cutting Board',
     asin: 'B0CC8SZRT3',
-    affiliateUrl: url('B0CC8SZRT3'),
+    affiliateUrl: 'https://www.amazon.com/Bamboo-Cutting-Kitchen-Chopping-Kikcoin/dp/B0CC8SZRT3?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=58a4652954fb4ccf04564ac01c61654a&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/819GDbFB7ZL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -315,7 +313,7 @@ export const products: Product[] = [
     rank: 6,
     name: 'Keechee Bamboo Cutting Board with Deep Juice Grooves',
     asin: 'B0D7M8QB9Y',
-    affiliateUrl: url('B0D7M8QB9Y'),
+    affiliateUrl: 'https://www.amazon.com/Cutting-Durable-Charcuterie-Chopping-Vegetables/dp/B0D7M8QB9Y?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=bd6719ba25f60cf8ca3d2f6581d4c135&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81CbxCEH0mL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -343,7 +341,7 @@ export const products: Product[] = [
     rank: 1,
     name: 'Acnusik Silverware Set for 8 – 40 Piece Heavy Duty',
     asin: 'B08B39ZH5M',
-    affiliateUrl: url('B08B39ZH5M'),
+    affiliateUrl: 'https://www.amazon.com/Acnusik-Stainless-Steel-Flatware-Set/dp/B08B39ZH5M?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=ac27999be3893100082254602a986638&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/715zK8PNSHL.AC_SL1500.jpg',
     badge: 'Top Performer',
     summary:
@@ -370,7 +368,7 @@ export const products: Product[] = [
     rank: 2,
     name: 'KINGSTONE 20 Piece Flatware Set for 4 – 18/10 Steel',
     asin: 'B091SRKPN7',
-    affiliateUrl: url('B091SRKPN7'),
+    affiliateUrl: 'https://www.amazon.com/KINGSTONE-Stainless-Silverware-Tableware-Restaurant/dp/B091SRKPN7?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=275f14dbb30e4f076538fd5692c0686c&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/61ysDODB69L.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -396,7 +394,7 @@ export const products: Product[] = [
     rank: 3,
     name: 'PHILIPALA 20 Piece Silverware Set – Food Grade',
     asin: 'B0DKTX3H1H',
-    affiliateUrl: url('B0DKTX3H1H'),
+    affiliateUrl: 'https://www.amazon.com/PHILIPALA-20-Piece-Silverware-Flatware-Dishwasher/dp/B0DKTX3H1H?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=11fc96e75b84fc84b35c1b558485a0e7&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/61MXl1tbVeL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -422,7 +420,7 @@ export const products: Product[] = [
     rank: 4,
     name: 'EWFEN 24-Piece Black Silverware Set with Steak Knives',
     asin: 'B0BYX1XT81',
-    affiliateUrl: url('B0BYX1XT81'),
+    affiliateUrl: 'https://www.amazon.com/Silverware-Food-Grade-Stainless-Tableware-Restaurant/dp/B0BYX1XT81?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=f594deebcbb588b33433b29b8f801bc7&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71vZ7TGZW1L.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -448,7 +446,7 @@ export const products: Product[] = [
     rank: 5,
     name: 'Stapava 20 Piece Silverware Set – Mirror Polished',
     asin: 'B0FMDR8HPB',
-    affiliateUrl: url('B0FMDR8HPB'),
+    affiliateUrl: 'https://www.amazon.com/Stapava-Silverware-Food-Grade-Dishwasher-Restaurant/dp/B0FMDR8HPB?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=ba5c52f14d0fdbc29505b3a5b0a74ce7&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/710133iz6aL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -474,7 +472,7 @@ export const products: Product[] = [
     rank: 6,
     name: 'Amorston Steak Knives Set of 8 – Black Serrated',
     asin: 'B09Y8WF8WQ',
-    affiliateUrl: url('B09Y8WF8WQ'),
+    affiliateUrl: 'https://www.amazon.com/Knives-Stainless-Serrated-Dishwasher-Elegant/dp/B09Y8WF8WQ?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=49f8a49dd049444502c0dfc9261192d4&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/7125-lwYKkL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -502,7 +500,7 @@ export const products: Product[] = [
     rank: 1,
     name: 'Rubbermaid Brilliance Glass Food Storage – Set of 9',
     asin: 'B08BR9HBZ3',
-    affiliateUrl: url('B08BR9HBZ3'),
+    affiliateUrl: 'https://www.amazon.com/Rubbermaid-Brilliance-Storage-Containers-Pieces/dp/B08BR9HBZ3?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=7bfca459b42eb4e24a9f4b048be43e4c&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71H+hPWNagL.AC_SL1500.jpg',
     badge: 'Best Value',
     summary:
@@ -529,7 +527,7 @@ export const products: Product[] = [
     rank: 2,
     name: 'Vtopmart 5-Pack 22oz Glass Containers with Snap Lids',
     asin: 'B0D7P6XKNP',
-    affiliateUrl: url('B0D7P6XKNP'),
+    affiliateUrl: 'https://www.amazon.com/Vtopmart-Containers-Airtight-Microwave-Dishwasher/dp/B0D7P6XKNP?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=0e969d9214d04dcf91935f9bca4b3022&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81yZcHBqjaL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -555,7 +553,7 @@ export const products: Product[] = [
     rank: 3,
     name: 'Liuruiyu 8-Pack Glass Meal Prep Containers – BPA Free',
     asin: 'B0F9K2KXZV',
-    affiliateUrl: url('B0F9K2KXZV'),
+    affiliateUrl: 'https://www.amazon.com/Liuruiyu-Containers-Airtight-Microwave-Dishwasher/dp/B0F9K2KXZV?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=f3c140e9c794ffb8c5b6743a3e80d0e8&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/811PAhhOvYL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -581,7 +579,7 @@ export const products: Product[] = [
     rank: 4,
     name: 'Vtopmart 8-Pack Glass Meal Prep Containers – Airtight',
     asin: 'B0B9S5HZ26',
-    affiliateUrl: url('B0B9S5HZ26'),
+    affiliateUrl: 'https://www.amazon.com/Vtopmart-Containers-Airtight-Microwave-Dishwasher/dp/B0B9S5HZ26?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=c2d9a7c0aa5a9dce028bed23294ee3c6&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71xlXpdVSUL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -607,7 +605,7 @@ export const products: Product[] = [
     rank: 5,
     name: 'HOMBERKING 8-Pack Borosilicate Glass Containers with Snap Locks',
     asin: 'B0DWLHPM8Q',
-    affiliateUrl: url('B0DWLHPM8Q'),
+    affiliateUrl: 'https://www.amazon.com/HOMBERKING-Storage-Containers-Airtight-Kitchen/dp/B0DWLHPM8Q?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=aab68f96c169f14473c8c38cfe25b6a2&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81nSlSuySFL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -633,7 +631,7 @@ export const products: Product[] = [
     rank: 6,
     name: 'KOMUEE 10-Pack 30oz Glass Meal Prep Containers',
     asin: 'B08X4615SC',
-    affiliateUrl: url('B08X4615SC'),
+    affiliateUrl: 'https://www.amazon.com/KOMUEE-Containers-Airtight-Microwave-Dishwasher/dp/B08X4615SC?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=87665c96d0935aedf996fe1ee1829640&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71FEUOgXhfS.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -661,7 +659,7 @@ export const products: Product[] = [
     rank: 1,
     name: 'Umite Chef 33-Piece Silicone Kitchen Utensils Set – Khaki',
     asin: 'B08573DQ39',
-    affiliateUrl: url('B08573DQ39'),
+    affiliateUrl: 'https://www.amazon.com/Umite-Chef-Utensils-Non-stick-Resistant/dp/B08573DQ39?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=92b9fac9162446559ccac78d9b6fe20e&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/615CbF7dxCL.AC_SL1500.jpg',
     badge: 'Staff Favorite',
     summary:
@@ -688,7 +686,7 @@ export const products: Product[] = [
     rank: 2,
     name: '35-Piece Cooking Utensils with Grater – Heat Resistant',
     asin: 'B094PTSRP9',
-    affiliateUrl: url('B094PTSRP9'),
+    affiliateUrl: 'https://www.amazon.com/Utensils-Resistant-Silicone-Nonstick-Cookware/dp/B094PTSRP9?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=b2f97822477f73e7be3985773a83fb42&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71yxPx0ekLS.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -714,7 +712,7 @@ export const products: Product[] = [
     rank: 3,
     name: 'NileHome Silicone Spatula Set – 6 Piece BPA-Free Black',
     asin: 'B0B7J62MV9',
-    affiliateUrl: url('B0B7J62MV9'),
+    affiliateUrl: 'https://www.amazon.com/NileHome-Silicone-Utensils-Resistant-BPA-free/dp/B0B7J62MV9?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=68f38407f6bfe2a7ad77239d833c1443&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71CZuGEhoDL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -740,7 +738,7 @@ export const products: Product[] = [
     rank: 4,
     name: 'CAROTE 10-Piece Silicone Utensils Set – Cream White',
     asin: 'B0C9DNCFG2',
-    affiliateUrl: url('B0C9DNCFG2'),
+    affiliateUrl: 'https://www.amazon.com/CAROTE-Silicone-Utensils-Resistant-Non-Stick/dp/B0C9DNCFG2?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=b4d7bca89ea94b3c43988fac77b07b96&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71wQKlUWk-L.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -766,7 +764,7 @@ export const products: Product[] = [
     rank: 5,
     name: 'Astercook 39-Piece Kitchen Utensils Set – Wood Handle',
     asin: 'B0F23QPVVG',
-    affiliateUrl: url('B0F23QPVVG'),
+    affiliateUrl: 'https://www.amazon.com/Astercook-Utensils-Silicone-Resistant-Nonstick/dp/B0F23QPVVG?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=1892baa695b7fea41d1298a84174d280&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81x2ixCKp8L.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -792,7 +790,7 @@ export const products: Product[] = [
     rank: 6,
     name: 'AOTHOD Silicone Cooking Utensils Set – 446°F Resistant',
     asin: 'B088DGBRMC',
-    affiliateUrl: url('B088DGBRMC'),
+    affiliateUrl: 'https://www.amazon.com/Silicone-Cooking-Utensils-Whisk-Kitchen-Cookware-Dishwasher/dp/B088DGBRMC?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=7533e7cfcd5a563fd2585133173c579d&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/71JicJjYzmL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -820,7 +818,7 @@ export const products: Product[] = [
     rank: 1,
     name: 'TOPDesign 12-Pack Cotton Tote Bags 16x15',
     asin: 'B082CZHQZ3',
-    affiliateUrl: url('B082CZHQZ3'),
+    affiliateUrl: 'https://www.amazon.com/TOPDesign-Economical-Lightweight-Advertising-Promotion/dp/B082CZHQZ3?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=f1902bca9b8ee3c7a9b025d5959a1ad4&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/613nnka+ELL.AC_SL1500.jpg',
     badge: 'Most Versatile',
     summary:
@@ -847,7 +845,7 @@ export const products: Product[] = [
     rank: 2,
     name: 'TOPDesign Canvas Tote Bag with External Pocket + Zipper',
     asin: 'B083DH7MNG',
-    affiliateUrl: url('B083DH7MNG'),
+    affiliateUrl: 'https://www.amazon.com/TOPDesign-Stylish-External-Closure-Essentials/dp/B083DH7MNG?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=e242124fb68e9fdb8903403a2f79fe62&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/61OoqpUDVqL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -873,7 +871,7 @@ export const products: Product[] = [
     rank: 3,
     name: 'BALEINE 3-Pack Foldable Reusable Grocery Bags – Antique Foliage',
     asin: 'B094X266WR',
-    affiliateUrl: url('B094X266WR'),
+    affiliateUrl: 'https://www.amazon.com/BALEINE-Reusable-Grocery-Shopping-Reinforced/dp/B094X266WR?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=b9564bfb5672054e81f23feb3cebbb93&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81nzl6CRlIL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -899,7 +897,7 @@ export const products: Product[] = [
     rank: 4,
     name: 'NPBAG 25-Pack Natural Cotton Tote Bags 15x16',
     asin: 'B08MXMK3S9',
-    affiliateUrl: url('B08MXMK3S9'),
+    affiliateUrl: 'https://www.amazon.com/NPBAG-Natural-Cotton-Blank-Teflon/dp/B08MXMK3S9?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=a57057496a18a28935592170285a797b&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/611FnTyBJWL.AC_SL1500.jpg',
     badge: '',
     summary:
@@ -925,7 +923,7 @@ export const products: Product[] = [
     rank: 5,
     name: 'Nanobag Ultralight Foldable Tote – Standard Black',
     asin: 'B0D5J5XD6Q',
-    affiliateUrl: url('B0D5J5XD6Q'),
+    affiliateUrl: 'https://www.amazon.com/Nanobag-Ultralight-Foldable-Collapsible-Essential/dp/B0D5J5XD6Q?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=dcba649930e0e8335de83de8a88ecda8&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/51AOgYhG1LL.AC_SL1350.jpg',
     badge: '',
     summary:
@@ -951,7 +949,7 @@ export const products: Product[] = [
     rank: 6,
     name: 'BALEINE 2-Pack Insulated Reusable Grocery Bags – Cooler',
     asin: 'B0B38GQPGF',
-    affiliateUrl: url('B0B38GQPGF'),
+    affiliateUrl: 'https://www.amazon.com/BALEINE-Insulated-Reusable-Collapsible-Groceries/dp/B0B38GQPGF?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=c1254aae8c70aca9c37328a1a7e64feb&language=en_US&ref_=as_li_ss_tl',
     imageUrl: 'https://m.media-amazon.com/images/I/81WdaSB+uHL.AC_SL1500.jpg',
     badge: '',
     summary:
