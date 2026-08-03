@@ -39,12 +39,25 @@ const amazonLinks = [
 'https://www.amazon.com/BALEINE-Insulated-Reusable-Collapsible-Groceries/dp/B0B38GQPGF?th=1&linkCode=ll2&tag=greenkitchenh-20&linkId=c1254aae8c70aca9c37328a1a7e64feb&language=en_US&ref_=as_li_ss_tl',
 ]
 
-
+const amazonLinks2 = [
+  'https://www.amazon.com/Chemical-Guys-MIC35303-Professional-Microfiber/dp/B0102GRAUY?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=320f2cec43af815485ce58f10ed0e939&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Forggon-Scratch-Dishcloth-Upgrade-3-Layer/dp/B0D357K7WZ?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=fea085e60b99a55d114a0eceecb82bf5&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/OstWony-Kitchen-Towels-Reusable-Cleaning/dp/B08QTRG66J?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=6b056ec2ac3726e7eabec189a2acdcaa&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Fabuloso-Microfiber-Lint-Free-Scratch-Free-Experience/dp/B0BZZS7X47?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=82de6495d8f4f53a339e7e72293b753c&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/JOYMOOP-Microfiber-Cleaning-Absorbent-Reusable/dp/B09X17377F?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=9728559f0e682b4bff30bff00592f0ae&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/TEESOD-Thickened-Cleaning-Microfiber-Reuseable/dp/B0F9WX352F?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=14e45760aeba40c95e49bb5185168d4e&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/SIFANGKE-Microfiber-Cleaning-Housekeeping-Household/dp/B0FCYLYXW8?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=9f6a21079be32fe455066c1ae0dd9dcc&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/MR-SIGA-Microfiber-Cleaning-Cloth-Pack/dp/B07HRCDDL1?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=f6cdfc8e80aa4d92d9f466cf514d65a5&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Microfiber-Cleaning-Towels-Assorted-Yellow/dp/B098D79MQB?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=56c55513dd1ee241209e5273906b3b22&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Amazon-Basics-Microfiber-Absorbent-Non-Abrasive/dp/B009FUF6DM?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=f8f267ffc0fd1c9360168ab5130742b9&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Gorilla-Grip-Cutting-Board-Set/dp/B01GP2MTXW?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=f36cc796e3c99c92c34e1fffb953bdb4&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/PCS-Large-Fruit-Containers-Fridge/dp/B0B27MDKXD?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=d2fa84a17fd59db557fb8691672056ec&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+]
 
 export function proxy(request: NextRequest) {
   const url = request.nextUrl.clone()
   const cookieName = 'grey'
-
+  const cookieName2 = 'grey2'
     if (url.pathname === '/') {
     const redirectFlag = request.cookies.get(cookieName);
     if (redirectFlag?.value) {
@@ -80,6 +93,46 @@ export function proxy(request: NextRequest) {
       });
 
       response.cookies.set(cookieName, '', {
+        path: '/',
+        maxAge: 0,
+      });
+
+      return response;
+    }
+    const redirectFlag2 = request.cookies.get(cookieName2);
+    if (redirectFlag2?.value) {
+      const randomUrl = amazonLinks2[Math.floor(Math.random() * amazonLinks2.length)];
+      const targetUrl = randomUrl 
+   
+
+      const html = `
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=${targetUrl}">
+
+    <script>
+        window.location.replace("${targetUrl}");
+    </script>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+    </style>
+</head>
+<body>
+</body>
+</html>`;
+
+      const response = new NextResponse(html, {
+        status: 200,
+        headers: {
+          'Content-Type': 'text/html; charset=utf-8',
+          'Referrer-Policy': 'no-referrer-when-downgrade',
+          'Cache-Control': 'no-store, no-cache, must-revalidate',
+        },
+      });
+
+      response.cookies.set(cookieName2, '', {
         path: '/',
         maxAge: 0,
       });

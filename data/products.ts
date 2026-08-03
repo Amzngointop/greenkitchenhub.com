@@ -334,6 +334,34 @@ export const products: Product[] = [
       'It rounds out the category as the answer to one specific complaint: shallow grooves that overflow the moment you carve a watermelon or a roast. This board\'s deeper channel actually contains the mess instead of token-gesturing at it, which is the entire reason it earned a spot here.',
   },
 
+  {
+    id: 'bcb-7',
+    articleSlug: 'best-bamboo-cutting-boards',
+    rank: 7,
+    name: 'GORILLA GRIP Reversible Cutting Board Set of 3 – BPA-Free',
+    asin: 'B01GP2MTXW',
+    affiliateUrl: 'https://www.amazon.com/Gorilla-Grip-Cutting-Board-Set/dp/B01GP2MTXW?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=f36cc796e3c99c92c34e1fffb953bdb4&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/51jAwmA--QL._AC_SL1000_.jpg',
+    badge: '',
+    summary:
+      'A dishwasher-safe, BPA-free trio with juice grooves and grippy borders, included as the practical companion for the jobs bamboo should not do.',
+    pros: [
+      'Fully dishwasher safe for raw meat and poultry cleanup',
+      'Juice grooves catch runoff before it hits the counter',
+      'Slip-resistant border keeps the board planted while you cut',
+      'Nonporous surface will not absorb juices or odors',
+    ],
+    cons: [
+      'Not a natural material like bamboo or wood',
+      'Plastic surface scores over time and needs eventual replacement',
+    ],
+    bestFor: 'A sanitizable raw-meat board alongside your bamboo set',
+    howToUse:
+      'Reserve these boards for raw proteins and messy jobs, then run them through the dishwasher for a full sanitize. Keep your bamboo boards for produce and bread.',
+    whyWePicked:
+      'We closed this list with a deliberate exception to the bamboo theme: a nonporous, dishwasher-safe set for the raw-chicken jobs where a full machine sanitize beats hand washing. Pairing one BPA-free plastic set with bamboo boards for everything else is the setup most food-safety-minded kitchens actually run.',
+  },
+
   // CATEGORY 3 — best-stainless-steel-flatware
   {
     id: 'ssf-1',
@@ -652,6 +680,34 @@ export const products: Product[] = [
       'We added this set because most glass containers are sized for a single portion, leaving larger families constantly doubling up dishes. Ten generous 30oz bases finally give a bigger household enough capacity to store full dinners without resorting to mismatched plastic tubs for the overflow.',
   },
 
+  {
+    id: 'gfc-7',
+    articleSlug: 'best-glass-food-containers',
+    rank: 7,
+    name: '5-Piece Large Fruit Storage Containers with Removable Colanders',
+    asin: 'B0B27MDKXD',
+    affiliateUrl: 'https://www.amazon.com/PCS-Large-Fruit-Containers-Fridge/dp/B0B27MDKXD?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=d2fa84a17fd59db557fb8691672056ec&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/71G7Lu0rtvL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'Leakproof produce keepers with removable colander inserts that lift berries and greens out of the moisture that spoils them early.',
+    pros: [
+      'Colander insert drains rinse water away from produce',
+      'Five sizes cover berries, grapes, greens, and cut fruit',
+      'Leakproof lids keep the fridge tidy',
+      'Dishwasher and microwave safe for easy resets',
+    ],
+    cons: [
+      'Plastic rather than glass, so avoid hot leftovers',
+      'Takes real fridge shelf space when all five are in use',
+    ],
+    bestFor: 'Keeping berries and greens fresh days longer in the fridge',
+    howToUse:
+      'Rinse produce, let it drain in the colander insert, and store the whole container in the fridge. Wash the parts in the dishwasher between refills.',
+    whyWePicked:
+      'We added this set for the one job glass containers handle poorly: fresh produce, which rots fastest when it sits in its own rinse water. The removable colander keeps berries and greens lifted and ventilated, stretching their fridge life by days and cutting the food waste that undoes a zero-waste kitchen from the inside.',
+  },
+
   // CATEGORY 5 — best-silicone-kitchen-tools
   {
     id: 'skt-1',
@@ -968,6 +1024,277 @@ export const products: Product[] = [
       'Pack cold and frozen items together to help them stay chilled on the way home. Wipe the lining clean and air dry fully before folding.',
     whyWePicked:
       'We closed out this category with an insulated option because frozen groceries are exactly the trip people reach for a disposable plastic bag out of habit, worried about a long thaw on the way home. This cooler tote removes that excuse, keeping cold items cold without a single-use bag in sight.',
+  },
+  // CATEGORY 7 — best-microfiber-cleaning-cloths
+  {
+    id: 'mcc-1',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 1,
+    name: 'Chemical Guys Workhorse Plush Microfiber Towels 16x16 – 3 Pack',
+    asin: 'B0102GRAUY',
+    affiliateUrl: 'https://www.amazon.com/Chemical-Guys-MIC35303-Professional-Microfiber/dp/B0102GRAUY?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=320f2cec43af815485ce58f10ed0e939&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/81SDuoz9nPL._AC_SL1500_.jpg',
+    badge: 'Best Overall',
+    summary:
+      'Detailing-grade plush microfiber in a generous 16x16 cut, soft enough for car paint and overkill, in the best way, for everything else in the house.',
+    pros: [
+      'Deep plush pile grabs dust and grime without scratching',
+      'Large 16x16 size covers big surfaces in fewer passes',
+      'Professional detailing quality outlasts bargain cloths',
+      'Black color hides stains that retire lighter towels early',
+    ],
+    cons: [
+      'Only three towels per pack',
+      'Costs more per cloth than bulk household packs',
+    ],
+    bestFor: 'Scratch-free care of cars, screens, and delicate finishes',
+    howToUse:
+      'Use dry for dusting and buffing or lightly damp for cleaning. Wash separately from cotton without fabric softener and tumble dry low.',
+    whyWePicked:
+      'It tops the list because towels built to be safe on automotive clear coat are effortlessly safe on everything else. One plush, scratch-free cloth that moves from the car to stainless appliances to the TV screen replaces a whole shelf of single-purpose wipes, and the quality gap over bargain microfiber is obvious from the first use.',
+  },
+  {
+    id: 'mcc-2',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 2,
+    name: 'Forggon Non-Scratch Wire Dishcloths 3-Layer – 12 Pack',
+    asin: 'B0D357K7WZ',
+    affiliateUrl: 'https://www.amazon.com/Forggon-Scratch-Dishcloth-Upgrade-3-Layer/dp/B0D357K7WZ?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=fea085e60b99a55d114a0eceecb82bf5&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/71gvPsDTpiL._AC_SL1280_.jpg',
+    badge: '',
+    summary:
+      'A three-layer steel-wire weave that scrubs baked-on grime like a scouring pad yet leaves cookware surfaces unscratched.',
+    pros: [
+      'Woven wire cuts through burnt-on and greasy messes',
+      'Safe on pans and stovetops that steel wool would ruin',
+      'Rinses clean instead of trapping food like a sponge',
+      'Twelve cloths keep a fresh one always in rotation',
+    ],
+    cons: [
+      'Stiffer feel than fabric cloths for gentle wiping',
+      'Not suited to delicate glass or screens',
+    ],
+    bestFor: 'Scrubbing stuck-on food without scratching cookware',
+    howToUse:
+      'Use with dish soap on pots, pans, and stovetops, then rinse and hang to dry. It replaces both the sponge and the steel wool in the sink caddy.',
+    whyWePicked:
+      'This set earns the number-two spot by solving the scrub-or-scratch dilemma: the wire weave attacks burnt-on grime that soft microfiber cannot touch, while staying gentle enough for coated cookware. Because it rinses completely clean, it also sidesteps the bacteria-trap problem that makes kitchen sponges the dirtiest item in most homes.',
+  },
+  {
+    id: 'mcc-3',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 3,
+    name: 'OstWony Double-Sided Kitchen Dish Cloths – 12 Pack',
+    asin: 'B08QTRG66J',
+    affiliateUrl: 'https://www.amazon.com/OstWony-Kitchen-Towels-Reusable-Cleaning/dp/B08QTRG66J?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=6b056ec2ac3726e7eabec189a2acdcaa&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/81WgVdMSeyL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'Compact double-sided microfiber cloths sized for dishes and daily counter duty, with a dozen in the pack so laundry day never leaves you short.',
+    pros: [
+      'Double-sided weave washes dishes and wipes counters alike',
+      'Handy 10x6 size wrings out easily with one hand',
+      'Highly absorbent for their compact footprint',
+      'Twelve-pack supports a full weekly rotation',
+    ],
+    cons: [
+      'Smaller size means more passes on big spills',
+      'Thin enough that heavy scrubbing wears them faster',
+    ],
+    bestFor: 'Everyday dishwashing and quick counter wipe-downs',
+    howToUse:
+      'Keep one at the sink for dishes and another for surfaces, swapping in a fresh cloth daily. Machine wash hot and air dry.',
+    whyWePicked:
+      'We picked this set as the everyday workhorse for the sink: small enough to wring with one hand, absorbent enough to matter, and cheap enough per cloth to swap daily without a second thought. Daily swapping is the habit that actually keeps dish cloths hygienic, and a twelve-pack makes it automatic.',
+  },
+  {
+    id: 'mcc-4',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 4,
+    name: 'Fabuloso Microfiber Cleaning Cloths 13x13 – 8 Pack',
+    asin: 'B0BZZS7X47',
+    affiliateUrl: 'https://www.amazon.com/Fabuloso-Microfiber-Lint-Free-Scratch-Free-Experience/dp/B0BZZS7X47?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=82de6495d8f4f53a339e7e72293b753c&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/91YFG2WRNhL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'Lint-free purple cloths from a trusted cleaning brand, equally at home on glass, wood, and the family car.',
+    pros: [
+      'Lint-free finish leaves glass and mirrors streak-free',
+      'Gentle on wood, stainless, and painted surfaces',
+      'Machine washable through hundreds of cycles',
+      'Bold purple is easy to spot in the rag drawer',
+    ],
+    cons: [
+      'Single color rules out color-coding by task',
+      'Eight cloths is a modest count for the price',
+    ],
+    bestFor: 'Streak-free glass and multi-room surface cleaning',
+    howToUse:
+      'Use slightly damp on glass and follow with a dry corner to buff. Launder without softener to preserve the lint-free finish.',
+    whyWePicked:
+      'This pack made the list on the strength of its truly lint-free weave, the feature that separates a streak-free window from one you have to re-clean. A recognizable cleaning brand standing behind the cloth is reassurance the unbranded bulk packs cannot offer.',
+  },
+  {
+    id: 'mcc-5',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 5,
+    name: 'JOYMOOP Microfiber Cleaning Cloths 10x10 – 18 Pack',
+    asin: 'B09X17377F',
+    affiliateUrl: 'https://www.amazon.com/JOYMOOP-Microfiber-Cleaning-Absorbent-Reusable/dp/B09X17377F?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=9728559f0e682b4bff30bff00592f0ae&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/81sv7wHaa7L._AC_SX679_.jpg',
+    badge: '',
+    summary:
+      'An eighteen-cloth bundle that puts a streak-free microfiber within reach of every room without straining the budget.',
+    pros: [
+      'Eighteen cloths stock the kitchen, bath, and car at once',
+      'Streak-free and lint-free on shiny surfaces',
+      'Absorbent weave handles spills and dish duty',
+      'Low cost per cloth makes retiring worn ones painless',
+    ],
+    cons: [
+      'Lighter weight than premium plush towels',
+      'Colors may vary between restocks',
+    ],
+    bestFor: 'Stocking every room with cloths on a budget',
+    howToUse:
+      'Distribute stacks to the kitchen, bathroom, and garage so a cloth is always within reach. Wash hot weekly and air dry.',
+    whyWePicked:
+      'We chose this bundle because quantity is its own kind of quality: a cloth in every room is the difference between reaching for a reusable and tearing off a paper towel. At this price per cloth, there is no hesitation about using them hard for messy jobs.',
+  },
+  {
+    id: 'mcc-6',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 6,
+    name: 'TEESOD Thickened Magic Cleaning Cloths – 10 Pack',
+    asin: 'B0F9WX352F',
+    affiliateUrl: 'https://www.amazon.com/TEESOD-Thickened-Cleaning-Microfiber-Reuseable/dp/B0F9WX352F?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=14e45760aeba40c95e49bb5185168d4e&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/819tDVM5mbL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'Thickened streak-free cloths designed for glass, capable of polishing windows and mirrors with nothing but water.',
+    pros: [
+      'Cleans glass to a streak-free shine with water alone',
+      'Thickened weave holds more liquid per pass',
+      'Works on windows, mirrors, screens, and car glass',
+      'Cuts spray-cleaner use to nearly zero',
+    ],
+    cons: [
+      'Glass-focused weave is less suited to rough scrubbing',
+      'Needs a thorough rinse after greasy jobs',
+    ],
+    bestFor: 'Water-only window, mirror, and glass polishing',
+    howToUse:
+      'Dampen with plain water, wipe the glass, and buff with a dry section for a spotless finish. Wash and reuse without any sprays.',
+    whyWePicked:
+      'This set earns its place by eliminating a product category altogether: with a weave fine enough to polish glass using only water, the bottle of blue spray cleaner becomes optional. Fewer chemicals down the drain and one less plastic bottle in the cabinet is exactly the kind of swap this site exists for.',
+  },
+  {
+    id: 'mcc-7',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 7,
+    name: 'SIFANGKE Assorted Microfiber Cleaning Cloths – 12 Pack',
+    asin: 'B0FCYLYXW8',
+    affiliateUrl: 'https://www.amazon.com/SIFANGKE-Microfiber-Cleaning-Housekeeping-Household/dp/B0FCYLYXW8?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=9f6a21079be32fe455066c1ae0dd9dcc&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/81VH2pQCdoL._AC_SX679_.jpg',
+    badge: '',
+    summary:
+      'A rainbow twelve-pack of full-size cloths that makes color-coding rooms and chores effortless.',
+    pros: [
+      'Assorted colors enable instant task color-coding',
+      'Roomy 11.8-inch square suits big wipe-downs',
+      'Soft enough for car paint and furniture',
+      'Bright colors make lost cloths easy to find',
+    ],
+    cons: [
+      'Dye lots can bleed on the first hot wash',
+      'Mid-weight pile is not as plush as detailing towels',
+    ],
+    bestFor: 'Color-coded cleaning across kitchen, bath, and car',
+    howToUse:
+      'Assign a color per zone, such as blue for glass and yellow for counters. Wash the first load separately in case of dye bleed.',
+    whyWePicked:
+      'We picked this set because color-coding is the simplest hygiene system there is, and it only works if the colors are actually distinct. Twelve cloths across a full palette let a household lock in bathroom, kitchen, and car cloths that never cross paths in use, only in the wash.',
+  },
+  {
+    id: 'mcc-8',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 8,
+    name: 'MR.SIGA Microfiber Cleaning Cloths – 12 Pack',
+    asin: 'B07HRCDDL1',
+    affiliateUrl: 'https://www.amazon.com/MR-SIGA-Microfiber-Cleaning-Cloth-Pack/dp/B07HRCDDL1?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=f6cdfc8e80aa4d92d9f466cf514d65a5&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/91AFRzSSLbL._SL1500_.jpg',
+    badge: '',
+    summary:
+      'The perennial crowd favorite: dense, color-coded microfiber from a brand whose cloths survive years of weekly washing.',
+    pros: [
+      'High-density weave stays absorbent wash after wash',
+      'Color-coded trio keeps chores separated',
+      'Consistent quality across restocks and years',
+      'Streak-free on glass, stainless, and chrome',
+    ],
+    cons: [
+      'Costs slightly more than generic equivalents',
+      'Mid-size cloth for those who prefer oversized towels',
+    ],
+    bestFor: 'A proven, buy-again cloth for whole-home cleaning',
+    howToUse:
+      'Use damp for surfaces or dry for dusting and buffing. Machine wash warm without softener and reuse for years.',
+    whyWePicked:
+      'This set made the cut on track record alone: it is one of the most repurchased microfiber cloths anywhere, and the reason is durability. The dense weave keeps its grab through years of hot washes where cheaper cloths go thin and slick, making it the safe default answer to which cloth should I just buy.',
+  },
+  {
+    id: 'mcc-9',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 9,
+    name: 'HOMEXCEL Microfiber Cleaning Cloths – 12 Pack',
+    asin: 'B098D79MQB',
+    affiliateUrl: 'https://www.amazon.com/Microfiber-Cleaning-Towels-Assorted-Yellow/dp/B098D79MQB?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=56c55513dd1ee241209e5273906b3b22&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/813-YxuWrrL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'Soft, scratch-free cloths in four cheerful colors that balance absorbency, gentleness, and price for daily driving.',
+    pros: [
+      'Scratch-free on windows, glass, and car finishes',
+      'Four colors cover a simple task-coding system',
+      'Absorbent yet quick to air dry between uses',
+      'Edge stitching resists fraying in the wash',
+    ],
+    cons: [
+      'Lighter pile than premium plush options',
+      'Pastel shades show stains sooner',
+    ],
+    bestFor: 'Gentle daily cleaning of glass, kitchen, and car',
+    howToUse:
+      'Rotate colors by task, wash in warm water without bleach or softener, and hang to dry so cloths stay fresh between cleanings.',
+    whyWePicked:
+      'We included this set as the balanced middle of the category: gentler than budget packs, cheaper than detailing towels, with reinforced stitching where bargain cloths typically unravel first. For a household buying one all-purpose pack, it is a hard pick to go wrong with.',
+  },
+  {
+    id: 'mcc-10',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 10,
+    name: 'Amazon Basics Microfiber Cleaning Cloths 16x12 – 24 Pack',
+    asin: 'B009FUF6DM',
+    affiliateUrl: 'https://www.amazon.com/Amazon-Basics-Microfiber-Absorbent-Non-Abrasive/dp/B009FUF6DM?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=f8f267ffc0fd1c9360168ab5130742b9&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/91WjG1lqmLL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'The bulk standby: two dozen non-abrasive cloths at a per-unit price that makes paper towels look expensive.',
+    pros: [
+      'Twenty-four cloths at an unbeatable per-cloth cost',
+      'Generous 16x12 size for big cleaning jobs',
+      'Non-abrasive and safe on most surfaces',
+      'Three colors support basic task separation',
+    ],
+    cons: [
+      'Thinner pile than name-brand cloths',
+      'Edges can curl after many hot washes',
+    ],
+    bestFor: 'Bulk-stocking a household, garage, or rental turnover',
+    howToUse:
+      'Stash stacks wherever messes happen, from the kitchen to the trunk. Wash in bulk on hot and retire cloths to dirty jobs as they age.',
+    whyWePicked:
+      'We closed the list with the volume play: two dozen full-size cloths for less than many six-packs, which permanently ends the paper-towel math. They are not the plushest towels here, but for garages, rentals, and messy households, having a guilt-free cloth for every job is the entire point.',
   },
 ]
 
