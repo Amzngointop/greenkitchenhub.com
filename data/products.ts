@@ -521,6 +521,169 @@ export const products: Product[] = [
       'We added this set because most flatware collections quietly skip real steak knives, leaving households reaching for disposable plastic ones at a dinner party. A dedicated set of eight serrated knives closes that gap permanently, rounding out a fully reusable table setting.',
   },
 
+  {
+    id: 'ssf-7',
+    articleSlug: 'best-stainless-steel-flatware',
+    rank: 7,
+    name: 'Dinner Forks Set of 16 – Food Grade Stainless, Mirror Finish',
+    asin: 'B086D4PV2G',
+    affiliateUrl: 'https://www.amazon.com/Stainless-Silverware-Flatware-Dishwasher-Restaurant/dp/B086D4PV2G?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=74dc4bd7703320581a87b53c95c9bdca&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/61u87gpyolL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'Sixteen mirror-polished dinner forks in one box, for the utensil that always runs out first in a busy household.',
+    pros: [
+      'Sixteen forks solve the perpetual fork shortage',
+      'Food-grade stainless with smooth, rounded tines',
+      'Mirror finish matches most existing flatware sets',
+      'Dishwasher safe for daily heavy rotation',
+    ],
+    cons: [
+      'Forks only, not a complete place setting',
+      'Mirror polish shows water spots if air-dried',
+    ],
+    bestFor: 'Topping up the fork drawer for families and gatherings',
+    howToUse:
+      'Fold them into your existing flatware rotation and run through the dishwasher freely. Towel dry to keep the polish spotless.',
+    whyWePicked:
+      'We added this set because every household eventually discovers the same truth: forks vanish faster than anything else in the drawer. Sixteen matching, dishwasher-safe forks fix the shortage in one purchase, without buying a whole second flatware service for pieces you do not need.',
+  },
+  {
+    id: 'ssf-8',
+    articleSlug: 'best-stainless-steel-flatware',
+    rank: 8,
+    name: 'Teaspoon Set of 16 – 6.7" Stainless Steel, Mirror Finish',
+    asin: 'B086D4CP3X',
+    affiliateUrl: 'https://www.amazon.com/Teaspoon-Stainless-Teaspoons-Silverware-Dishwasher/dp/B086D4CP3X?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=6202d725b2f2464a0272531104a3b44c&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/51RCFFd7vpL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'Sixteen food-grade teaspoons sized for coffee, dessert, and everyday stirring, the other utensil that never seems to be clean when you need it.',
+    pros: [
+      'Sixteen spoons keep pace with daily coffee and dessert',
+      'Comfortable 6.7-inch size suits tea, yogurt, and snacks',
+      'Durable food-grade steel resists bending',
+      'Mirror finish and dishwasher-safe convenience',
+    ],
+    cons: [
+      'Small spoons only, no tablespoons included',
+      'Polish needs towel drying to stay spot-free',
+    ],
+    bestFor: 'Coffee, tea, and dessert duty in a busy kitchen',
+    howToUse:
+      'Stock the spoon slot and cycle them through the dishwasher. Keep a few near the coffee station so the main drawer never empties.',
+    whyWePicked:
+      'This set earns its spot as the companion fix to the fork shortage: teaspoons are the second utensil households chronically run out of, drafted into coffee, dessert, and kid duty all day. Sixteen sturdy, matching spoons keep the rotation ahead of the dishwasher backlog.',
+  },
+  {
+    id: 'ssf-9',
+    articleSlug: 'best-stainless-steel-flatware',
+    rank: 9,
+    name: 'Gold Long-Handle Coffee & Stirring Spoons 6.7" – Set of 4',
+    asin: 'B091CHRKVH',
+    affiliateUrl: 'https://www.amazon.com/Inches-Stirring-Teaspoons-Espresso-Stainless/dp/B091CHRKVH?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=ba7122dea0513210eddcccb651913603&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/51Ev1-Oe6cS._AC_SL1080_.jpg',
+    badge: '',
+    summary:
+      'Slender gold-tone stirring spoons whose long handles reach the bottom of tall glasses, mason jars, and iced-coffee tumblers.',
+    pros: [
+      'Long handles stir tall drinks without sticky fingers',
+      'Elegant gold tone dresses up the coffee station',
+      'Slim bowl fits narrow jars and tumblers',
+      'Stainless core keeps them dishwasher safe',
+    ],
+    cons: [
+      'Only four spoons in the set',
+      'Gold coating prefers gentler washing to stay bright',
+    ],
+    bestFor: 'Iced coffee, tea, and tall-glass drinks',
+    howToUse:
+      'Keep them by the kettle or coffee maker for tall drinks and layered desserts. Hand wash occasionally to preserve the gold finish.',
+    whyWePicked:
+      'We included this set for the tall-glass problem regular teaspoons cannot solve: an iced latte or overnight-oats jar leaves a standard spoon submerged. The extra-long handle fixes that, and the gold finish turns a purely practical utensil into a small piece of coffee-bar style.',
+  },
+  {
+    id: 'ssf-10',
+    articleSlug: 'best-stainless-steel-flatware',
+    rank: 10,
+    name: 'HIWARE Fiberglass Chopsticks – 10 Pairs, Dishwasher Safe',
+    asin: 'B07JRGRRBX',
+    affiliateUrl: 'https://www.amazon.com/Hiware-10-Pairs-Fiberglass-Chopsticks-Dishwasher/dp/B07JRGRRBX?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=f249c06bdf342c6648813a17c760918f&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/51+5AdFaguL._AC_.jpg',
+    badge: '',
+    summary:
+      'Ten pairs of sleek fiberglass chopsticks that retire the splintery disposable kind that comes stapled to every takeout bag.',
+    pros: [
+      'Replaces single-use wooden chopsticks for good',
+      'Fiberglass is dishwasher safe and never splinters',
+      'Textured tips grip noodles better than lacquered wood',
+      'Ten pairs cover family dinners and guests',
+    ],
+    cons: [
+      'Squared tips take practice for chopstick beginners',
+      'Dark color makes dropped pairs easy to overlook',
+    ],
+    bestFor: 'Takeout nights and home-cooked noodle bowls',
+    howToUse:
+      'Say no to the disposable pairs at checkout and reach for these instead. Wash in the dishwasher and store with the everyday flatware.',
+    whyWePicked:
+      'This set made the list because disposable chopsticks are the plastic fork of Asian takeout: used once, tossed by the billions. Ten dishwasher-safe fiberglass pairs permanently end that habit at home, and they outgrip and outlast both the throwaway kind and cheap lacquered wood.',
+  },
+  {
+    id: 'ssf-11',
+    articleSlug: 'best-stainless-steel-flatware',
+    rank: 11,
+    name: 'Eascrozn Toddler Utensils – 6-Piece Kids Forks & Spoons',
+    asin: 'B0CDTDP4N2',
+    affiliateUrl: 'https://www.amazon.com/Eascrozn-Utensils-Silverware-Stainless-Dishwasher/dp/B0CDTDP4N2?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=94245a097ca84006eda31b24cc732e39&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/61xgp1wxwuL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'A six-piece stainless set with rounded tips and chubby handles sized for toddlers graduating from plastic baby spoons.',
+    pros: [
+      'Rounded edges are safe for small mouths',
+      'Short, thick handles suit tiny grips',
+      'Stainless steel outlasts stained plastic kidware',
+      'Dishwasher safe for daily mealtime chaos',
+    ],
+    cons: [
+      'Kids outgrow the smallest sizes in a few years',
+      'Three place settings may be tight for twins plus daycare',
+    ],
+    bestFor: 'Toddlers learning to self-feed with real utensils',
+    howToUse:
+      'Introduce the spoon first, then the fork, letting your toddler practice with food that spears easily. Wash in the dishwasher between meals.',
+    whyWePicked:
+      'We picked this set because kids\' utensils are where plastic quietly persists in otherwise plastic-free kitchens. Rounded stainless pieces sized for toddler hands let little ones learn on the same safe, lasting material as the rest of the family, instead of cycling through stained, scratched plastic sets.',
+  },
+  {
+    id: 'ssf-12',
+    articleSlug: 'best-stainless-steel-flatware',
+    rank: 12,
+    name: 'DEHOV Kids Silverware Set – 12-Piece Stainless Steel',
+    asin: 'B0FDQ4HWP7',
+    affiliateUrl: 'https://www.amazon.com/Toddler-Utensils-Stainless-Silverware-Dishwasher/dp/B0FDQ4HWP7?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=869d25faddd3a74f0b8960efa2bb1303&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/71kZP-Vi8PL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'A twelve-piece kids\' flatware set generous enough to stock home, lunchboxes, and the grandparents\' house at once.',
+    pros: [
+      'Six spoon-and-fork settings cover multiple kids',
+      'Food-grade stainless with smooth, safe edges',
+      'Spares for lunchboxes, travel, and grandma\'s drawer',
+      'Dishwasher safe and hard to wear out',
+    ],
+    cons: [
+      'No knives included for older kids',
+      'Sized for children, so they age out eventually',
+    ],
+    bestFor: 'Multi-kid households and lunchbox packing',
+    howToUse:
+      'Split the set between home and the lunchbox rotation so a clean pair is always ready. Machine wash everything together.',
+    whyWePicked:
+      'We closed the category with the volume answer for families: twelve kid-sized stainless pieces mean a fork in the lunchbox, one in the dishwasher, and one in the drawer at the same time. That redundancy is what actually keeps disposable plasticware from sneaking back into packed lunches.',
+  },
+
   // CATEGORY 4 — best-glass-food-containers
   {
     id: 'gfc-1',
@@ -1295,6 +1458,168 @@ export const products: Product[] = [
       'Stash stacks wherever messes happen, from the kitchen to the trunk. Wash in bulk on hot and retire cloths to dirty jobs as they age.',
     whyWePicked:
       'We closed the list with the volume play: two dozen full-size cloths for less than many six-packs, which permanently ends the paper-towel math. They are not the plushest towels here, but for garages, rentals, and messy households, having a guilt-free cloth for every job is the entire point.',
+  },
+  {
+    id: 'mcc-11',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 11,
+    name: 'AIDEA Microfiber Cleaning Cloths 12x12 – 50 Pack',
+    asin: 'B08G19R5G6',
+    affiliateUrl: 'https://www.amazon.com/AIDEA-Microfiber-Cleaning-Absorbent-12in-x12in/dp/B08G19R5G6?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=9b99426d0d6223c67d11e344be622a17&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/91ay14JdwgL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'Fifty absorbent 12x12 cloths in one box, enough to stock the house, the car, and still keep a spare stack in the garage.',
+    pros: [
+      'Fifty cloths at a genuinely bulk per-unit price',
+      'Absorbent all-purpose weave for home and car',
+      'Uniform size keeps stacks and rotations tidy',
+      'Enough spares to never babysit a dirty cloth',
+    ],
+    cons: [
+      'Mid-weight pile, not detailing-towel plush',
+      'Fifty cloths need a dedicated storage bin',
+    ],
+    bestFor: 'Whole-house stocking with deep backup reserves',
+    howToUse:
+      'Split the box into stations: kitchen, bathroom, car, and garage. Wash by station in hot water and rotate stacks as they wear.',
+    whyWePicked:
+      'We added this pack as the sweet spot between quality and quantity: fifty matching cloths mean the clean-cloth supply simply never runs dry between laundry days. For households finally quitting paper towels, abundance is the feature that makes the habit stick.',
+  },
+  {
+    id: 'mcc-12',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 12,
+    name: 'MR.SIGA Microfiber Cleaning Cloths – 24 Pack',
+    asin: 'B010N0N7PQ',
+    affiliateUrl: 'https://www.amazon.com/SIGA-Microfiber-Cleaning-Cloth-Pack/dp/B010N0N7PQ?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=a362d755b080c6faa75b3a668cc27b08&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/81yNkLEBVsL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'The double-size box of our proven favorite: the same dense, streak-free MR.SIGA weave in a 24-cloth count for bigger households.',
+    pros: [
+      'Same wash-proof density as the 12-pack, doubled',
+      'Streak-free finish on glass and stainless',
+      'Better per-cloth price at the higher count',
+      'Color-coded for easy task separation',
+    ],
+    cons: [
+      'Twenty-four cloths overshoot a small apartment',
+      'Slightly pricier upfront than generic bulk packs',
+    ],
+    bestFor: 'Bigger homes that want the proven cloth in bulk',
+    howToUse:
+      'Assign colors to zones and keep half the box in reserve. Wash warm without softener and the reserve stack replaces cloths as they age.',
+    whyWePicked:
+      'This bigger box earns its own spot for a simple reason: once households try the 12-pack, the most common next purchase is more of them. Jumping straight to 24 gets the better per-cloth price and enough rotation depth for a full house from day one.',
+  },
+  {
+    id: 'mcc-13',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 13,
+    name: 'Clorox Handi Wipes Multi-Use Reusable Cloths – 36 Count',
+    asin: 'B0779JH1ZL',
+    affiliateUrl: 'https://www.amazon.com/Clorox-Handi-Wipes-Multi-Use-Reuseable/dp/B0779JH1ZL?&linkCode=ll2&tag=greenkitchenh3-20&linkId=740f8e109dc520891a763dd300d86522&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/712KBrHPvYL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'The classic thin, fast-drying cloth that bridges paper towels and rags: light like a wipe, but rinseable and reusable for weeks.',
+    pros: [
+      'Thin and quick-drying, so odors never settle in',
+      'Familiar wipe-like feel eases the switch from paper',
+      'Thirty-six cloths last a household many months',
+      'Rinses out easily mid-job',
+    ],
+    cons: [
+      'Far less absorbent than true microfiber',
+      'Each cloth wears out faster than woven towels',
+    ],
+    bestFor: 'Paper-towel loyalists easing into reusables',
+    howToUse:
+      'Use like a paper towel, then rinse, wring, and hang to dry for the next round. Retire each cloth after a few weeks of service.',
+    whyWePicked:
+      'We included this pack for the switcher who finds thick microfiber unfamiliar: Handi Wipes feel like the disposable wipes people already know, except each one survives weeks of rinse-and-reuse. As a stepping stone away from the paper-towel habit, the familiar format is exactly the point.',
+  },
+  {
+    id: 'mcc-14',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 14,
+    name: 'VALENGO Lint-Free 100% Cotton T-Shirt Rags 17x17 – 7 Pack',
+    asin: 'B09SGN73CF',
+    affiliateUrl: 'https://www.amazon.com/VALENGO-Cotton-Cleaning-Tshirt-Staining/dp/B09SGN73CF?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=594fdc9bd9919c5ceae8ad6ec6d75782&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/61Ntl7X75wL._AC_SL1389_.jpg',
+    badge: '',
+    summary:
+      'Soft, lint-free cotton tee-shirt rags for the jobs microfiber should not do: wood stain, cast iron seasoning, paint, and polish.',
+    pros: [
+      'Natural cotton handles oils, stains, and solvents',
+      'Lint-free finish is safe for staining and polishing',
+      'Big 17x17 cut folds into fresh working faces',
+      'Compostable fiber at the end of a long life',
+    ],
+    cons: [
+      'Less absorbent than split microfiber for spills',
+      'Seven rags is a workshop pack, not a house stock',
+    ],
+    bestFor: 'Wood finishing, cast iron care, paint, and polish',
+    howToUse:
+      'Fold into quarters and refold to a clean face as you work. Launder after water-based jobs; lay solvent-soaked rags flat to dry fully before storing or discarding safely.',
+    whyWePicked:
+      'This pack earns its place covering microfiber\'s blind spot: oil, stain, and solvent work, where synthetic fibers can smear or dissolve. Old-fashioned lint-free cotton is still the right tool for oiling a cutting board or seasoning cast iron, which makes it the natural partner to every microfiber pick above.',
+  },
+  {
+    id: 'mcc-15',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 15,
+    name: 'S&T INC. Microfiber Cleaning Cloths 11.5x11.5 – 150 Pack',
+    asin: 'B084WHPZYM',
+    affiliateUrl: 'https://www.amazon.com/INC-516401-Microfiber-Cleaning-Cloths/dp/B084WHPZYM?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=a8d17ac5df7432420f34351714f04435&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/81owgQP4blL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'A case of 150 microfiber cloths at pennies apiece, sized for Airbnb hosts, cleaning crews, and seriously large households.',
+    pros: [
+      'Case quantity at the lowest per-cloth price here',
+      'Consistent size and weave across the whole box',
+      'Ideal for rentals, crews, and shared housing',
+      'A years-long supply from a single purchase',
+    ],
+    cons: [
+      'Utility-grade cloths, thinner than premium picks',
+      'Storage for 150 cloths is a real commitment',
+    ],
+    bestFor: 'Hosts, cleaning businesses, and bulk buyers',
+    howToUse:
+      'Stage stacks at every property or cleaning station and launder in full hot loads. Cycle worn cloths down to rough jobs before retiring them.',
+    whyWePicked:
+      'We picked this case for buyers operating at a different scale: a host turning over rentals or a crew cleaning daily burns through cloths in volumes a 12-pack cannot serve. At pennies per cloth, it makes reusables cheaper than disposables even before the second wash.',
+  },
+  {
+    id: 'mcc-16',
+    articleSlug: 'best-microfiber-cleaning-cloths',
+    rank: 16,
+    name: 'Simpli-Magic Cotton Shop Towels 14x12 – 145 Pack White',
+    asin: 'B07J3BLQPM',
+    affiliateUrl: 'https://www.amazon.com/Simpli-Magic-79142-Shop-Towels-White/dp/B07J3BLQPM?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=4c1d1a6bec5eeb8f2341d668e6d1665d&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+    imageUrl: 'https://m.media-amazon.com/images/I/81ud5svBMiL._AC_SL1500_.jpg',
+    badge: '',
+    summary:
+      'A 145-count case of washable cotton shop towels that ends the blue-paper-roll habit in garages and workshops.',
+    pros: [
+      'Replaces disposable shop-towel rolls entirely',
+      'Cotton terry soaks up oil, grease, and coolant',
+      'Survives brutal messes and repeated hot washes',
+      'White fabric bleaches back to presentable',
+    ],
+    cons: [
+      'Too coarse for glass, screens, or fine finishes',
+      'Big case demands shelf space in the garage',
+    ],
+    bestFor: 'Garage, workshop, and automotive cleanup',
+    howToUse:
+      'Keep a clean stack and a dirty bin in the shop, then wash hot in bulk. Dry solvent-soaked towels flat and fully before binning or washing.',
+    whyWePicked:
+      'We closed the list where disposables hide last: the garage, where blue paper shop towels vanish by the roll. A case of washable cotton towels absorbs the oily, greasy work no household cloth should touch, completing the reusable swap for the whole property, not just the kitchen.',
   },
 ]
 

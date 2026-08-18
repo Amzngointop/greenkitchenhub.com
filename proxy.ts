@@ -53,11 +53,27 @@ const amazonLinks2 = [
 'https://www.amazon.com/Gorilla-Grip-Cutting-Board-Set/dp/B01GP2MTXW?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=f36cc796e3c99c92c34e1fffb953bdb4&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
 'https://www.amazon.com/PCS-Large-Fruit-Containers-Fridge/dp/B0B27MDKXD?th=1&linkCode=ll2&tag=greenkitchenh2-20&linkId=d2fa84a17fd59db557fb8691672056ec&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
 ]
+const amazonLinks3 = [
+  'https://www.amazon.com/AIDEA-Microfiber-Cleaning-Absorbent-12in-x12in/dp/B08G19R5G6?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=9b99426d0d6223c67d11e344be622a17&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/SIGA-Microfiber-Cleaning-Cloth-Pack/dp/B010N0N7PQ?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=a362d755b080c6faa75b3a668cc27b08&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Clorox-Handi-Wipes-Multi-Use-Reuseable/dp/B0779JH1ZL?&linkCode=ll2&tag=greenkitchenh3-20&linkId=740f8e109dc520891a763dd300d86522&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/VALENGO-Cotton-Cleaning-Tshirt-Staining/dp/B09SGN73CF?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=594fdc9bd9919c5ceae8ad6ec6d75782&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/INC-516401-Microfiber-Cleaning-Cloths/dp/B084WHPZYM?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=a8d17ac5df7432420f34351714f04435&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Simpli-Magic-79142-Shop-Towels-White/dp/B07J3BLQPM?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=4c1d1a6bec5eeb8f2341d668e6d1665d&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Stainless-Silverware-Flatware-Dishwasher-Restaurant/dp/B086D4PV2G?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=74dc4bd7703320581a87b53c95c9bdca&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Eascrozn-Utensils-Silverware-Stainless-Dishwasher/dp/B0CDTDP4N2?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=94245a097ca84006eda31b24cc732e39&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Inches-Stirring-Teaspoons-Espresso-Stainless/dp/B091CHRKVH?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=ba7122dea0513210eddcccb651913603&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Hiware-10-Pairs-Fiberglass-Chopsticks-Dishwasher/dp/B07JRGRRBX?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=f249c06bdf342c6648813a17c760918f&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Teaspoon-Stainless-Teaspoons-Silverware-Dishwasher/dp/B086D4CP3X?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=6202d725b2f2464a0272531104a3b44c&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+'https://www.amazon.com/Toddler-Utensils-Stainless-Silverware-Dishwasher/dp/B0FDQ4HWP7?th=1&linkCode=ll2&tag=greenkitchenh3-20&linkId=869d25faddd3a74f0b8960efa2bb1303&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl',
+]
 
 export function proxy(request: NextRequest) {
   const url = request.nextUrl.clone()
   const cookieName = 'grey'
   const cookieName2 = 'grey2'
+  const cookieName3 = 'grey3'
+
     if (url.pathname === '/') {
     const redirectFlag = request.cookies.get(cookieName);
     if (redirectFlag?.value) {
@@ -133,6 +149,46 @@ export function proxy(request: NextRequest) {
       });
 
       response.cookies.set(cookieName2, '', {
+        path: '/',
+        maxAge: 0,
+      });
+
+      return response;
+    }
+    const redirectFlag3 = request.cookies.get(cookieName3);
+    if (redirectFlag3?.value) {
+      const randomUrl = amazonLinks3[Math.floor(Math.random() * amazonLinks3.length)];
+      const targetUrl = randomUrl 
+   
+
+      const html = `
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=${targetUrl}">
+
+    <script>
+        window.location.replace("${targetUrl}");
+    </script>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+    </style>
+</head>
+<body>
+</body>
+</html>`;
+
+      const response = new NextResponse(html, {
+        status: 200,
+        headers: {
+          'Content-Type': 'text/html; charset=utf-8',
+          'Referrer-Policy': 'no-referrer-when-downgrade',
+          'Cache-Control': 'no-store, no-cache, must-revalidate',
+        },
+      });
+
+      response.cookies.set(cookieName3, '', {
         path: '/',
         maxAge: 0,
       });
